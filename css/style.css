@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/fondo1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: azure;
+    font-size: 48px;
+    margin: 20px 50px;
+}
+.box{
+    border: 1px solid;
+    width: 500px;
+    height: 400px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 0px 80px;
+}
+
+.cotizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* text-align: center;
+    justify-items: center; */
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    
+    width: 450px;
+    height: 350px;
+    border: 1px solid;
+    margin: 20px 50px;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+    <link rel="stylesheet" href="css/style.css">
     <title>Hotel</title>
   </head>
 
@@ -14,7 +14,8 @@
     </nav>
     <main>
       <section class="container">
-        <section class="cotizar">
+        <section class="cotizar box">
+
           <label for="">Nro Personas</label>
           <input type="number" name="" id="" />
 
@@ -23,15 +24,19 @@
 
           <label for="">Valor Personas</label>
           <input type="number" name="" id="" />
+          
           <section class="resultados">
-            <input type="button" value="Cotizar" />
+            <input type="button" value="Cotizar" /><br>
             <label for="">$00.000.000</label>
           </section>
         </section>
-        <section class="galeria">
-          <img src="" alt="" />
-          <input type="button" value="<" onclick="img1()"/>
-          <input type="button" value=">" onclick="img2()"/><br>
+        <section class="galeria box">
+          <img src="img/habitacion1.jpg" alt="" />
+
+          <div>
+            <input type="button" value="< Anterior" onclick="img1()"/>
+            <input type="button" value="> Siguiente" onclick="img2()"/><br>
+        </div>
         </section>
       </section>
     </main>
