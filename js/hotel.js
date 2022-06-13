@@ -30,3 +30,14 @@ function img2() {
     } 
 }
 
+
+function cotizar() {
+    const nPers = document.getElementById("nroPers").value;
+    const nroDias = document.getElementById("nroDias").value;
+    const vlrPers = document.getElementById("vlrPers").value;
+    const nResultado = document.getElementById("nResultado")
+
+    let nTotal = Number(nPers) * Number(nroDias) * Number(vlrPers);
+
+    nResultado.textContent = nTotal;
+}
